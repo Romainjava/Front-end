@@ -1,0 +1,30 @@
+/*********** BEGIN RESPONSIV ********/
+.container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+   "nav"
+   "main"
+   "footer";
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/*********** END RESPONSIV ***********/
+

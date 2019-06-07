@@ -1,0 +1,27 @@
+{
+    "client": [{
+            "prenom": "kévin",
+            "nom": "san martino",
+            "age": "28",
+            "profession": "patissier",
+            "email": "kéké@gmail.com",
+            "tel": "0707070707"
+        },
+        {
+            "prenom": "thibault",
+            "nom": "cougrand",
+            "age": "25",
+            "profession": "anaconda",
+            "email": "thibaultC@gmail.com",
+            "tel": "0607070708"
+        },
+        {
+            "prenom": "Romain",
+            "nom": "Van-damme",
+            "age": "29",
+            "profession": "Chef Cuisinier",
+            "email": "vandamme.romain.pro@gmail.com",
+            "tel": "0606060606"
+        }
+    ]
+}

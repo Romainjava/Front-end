@@ -1,0 +1,27 @@
+.grid-container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid; /* pour dire que ma div est en grid */
+    grid-template-rows: 1fr 3fr ; /* crée ligne */
+    grid-template-columns: 1fr 3fr ; /* crée colonnes */
+    grid-gap: 10px; /* de l'espace entre les les grilles */  
+    grid-template-areas: "header header"
+                         "aside list-film";  /* La propriété grid-template-areas permet de définir des zones de grille nommées.*/
+             
+}
+header { /*attribution des noms de grid templates areas */
+    grid-area: header;
+}
+
+aside { /*attribution des noms de grid templates areas */
+    grid-area: aside;
+}
+
+.list-film { /*attribution des noms de grid templates areas */
+    grid-area: list-film;
+    display: grid; /* pour dire que ma div est en grid */
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /*permet d'eviter de dire 1fr 1fr 1fr */
+    grid-template-rows: repeat(2, 1fr);
+}

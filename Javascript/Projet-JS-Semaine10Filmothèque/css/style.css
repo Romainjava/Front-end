@@ -1,0 +1,8 @@
+
+.film:nth-child(odd) { /* enfant impair */
+background: red;
+}
+
+.film:nth-child(even) { /* enfant pair */
+    background: yellowgreen;
+}

@@ -1,0 +1,152 @@
+.titrep2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+/*acteur espace entre eux */
+.madiv {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    
+}
+/* ecartement entre les articles et padding pour decaler à droite */
+.mes-articles {
+    display: grid;
+    grid-template-rows: 29% 1fr;
+    padding: 0 0px 0px 55%;
+}
+/* div global du main ne pas mettre de display grid dedans sinon tout cassé */
+.list-film2 {
+    background: radial-gradient(at 30% top, rgba(7, 64, 52, 1) 0%, rgba(8, 28, 36, 1) 70%);
+}
+
+.acteurs {
+    max-height: 135px;
+}
+
+.nom-acteur {
+    font-size: 15px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.synopsis2 {
+    color: whitesmoke;
+}
+
+/* div parent de la div text synopsis */
+.divParentSyno {
+    display: flex;
+    margin: 95px 0px 0 90px;
+    height: 200px;
+    width: 700px;
+    justify-content: center;
+    background: radial-gradient(at 30% top, rgb(13, 45, 38) 0%, rgb(89, 98, 107) 70%);
+    align-items: center;
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+}
+/* div global qui englobe le syno et image acteur */
+.divActeur {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: 1fr .1fr;
+}
+/*video*/
+
+/* div qui englobe trailer */
+.theDiv {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+/*div trailer*/
+.trailer {
+    background: radial-gradient(circle at 20% 50%, rgba(0, 0, 0, 0.88) 100%, rgba(14.12%, 14.51%, 16.86%, 0.98) 0%);
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 20px;
+    height: 170px;
+}
+
+
+iframe {
+    width: 83%;
+    height: 85%;
+}
+
+/* bouton */
+
+.wrapper{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: .7%;
+  }
+
+.boutonp1 {
+    color: #818181;
+	background-image: linear-gradient(top, #383838 0%, #1F1F1F 5%, #161616 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1F1F1F), to(#161616));
+	border-radius: 7px;
+	float: left;
+	box-shadow: 0 0 1px 1px rgb(10,10,10);
+	cursor: pointer;
+	position: relative;
+	font: normal 20px arial;
+	text-transform: uppercase;
+	padding-left: 4%;
+	padding-top: 5%;
+	vertical-align: bottom;
+	transition: color .3s ease;
+}
+   
+.boutonp1:hover{
+	color: #9E9E9E;
+}
+
+.boutonp1:active{
+	box-shadow: 0 0 1px 1px rgb(10,10,10),
+      				inset 0 2px 2px 0px black;
+}
+
+.boutonp1:before{
+	position: absolute;
+	content: '';
+	right: 15px;
+	top: 10px;
+	width: 12px;
+	height: 12px;
+	background: #646464;
+	background-image: radial-gradient(top, #616161 0%, #616161 20%, #535353 60%);
+	border-radius: 50%;
+	box-shadow: 0 0 4px #1C1C17;
+	transition: all .3s ease;
+}
+
+.boutonp1:hover:before{
+	background: #FF4F4F;
+	box-shadow: 0 0 4px #1C1C17,
+  						0 0 5px #FF4242;
+}
+
+.boutonp1:active:before{
+	box-shadow: 0 0 4px #1C1C17,
+  						inset 0 2px 2px 0px #CC0000;
+}
+
+.boutonp1:nth-child(1){
+	width: 200px;
+	margin-right: 2%;
+}
+
+

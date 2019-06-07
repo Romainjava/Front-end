@@ -1,0 +1,60 @@
+/*********** BEGIN pageUne ********/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+
+
+    &:link {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    color: #919496;
+    font-size: 12px;
+    letter-spacing: .08em;
+    margin: 50px 0 22px;
+    text-transform: uppercase;
+}
+
+/******** IMG BACKGROUND GENERAL ********/
+.hero {
+    background: url(/images/hero-burst.svg) no-repeat;
+    background: #efcd69;
+    width: 150vh;
+    height: 200vh;
+    position: absolute;
+    background-position: top -410px center;
+    left: 50%;
+    z-index: 1;
+}
+
+/************ body CLASS  ***********/
+.container {
+    background: #efcd69;
+    z-index: -1;
+}
+
+main {
+    height: 154vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*********** END pageUne ***********/

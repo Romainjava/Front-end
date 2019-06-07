@@ -1,0 +1,20 @@
+.fa-trash-alt {
+    color: black;
+}
+
+.fa-edit {
+    color: lightgrey;
+}
+
+.fa-check {
+    color: rebeccapurple;
+}
+
+.list-group {
+    display: flex;
+   align-content: center;
+}
+/* 
+i {
+    margin: 5px;
+} */

@@ -1,0 +1,188 @@
+/*********** BEGIN RESPONSIV ********/
+.container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "nav" "main" "footer"; }
+
+nav {
+  grid-area: nav; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
+/*********** END RESPONSIV ***********/
+/*********** BEGIN navbar ********/
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 16vh;
+  opacity: 0.7;
+  z-index: 1;
+  position: fixed;
+  width: 100%; }
+
+/********* DIV QUI WRAP TOUT ***********/
+.englobe {
+  height: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+/********* DIV QUI WRAP LOGO ET TEXT *********/
+.wrap-logo-text {
+  height: 90%;
+  display: flex;
+  align-items: center; }
+
+/********* CLASS ARTICLE LOGO *********/
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center; }
+
+/********** CLASS IMG ***********/
+.logo-spot {
+  height: 80%; }
+
+/********* TEXT LOGO *********/
+.text-logo {
+  color: white; }
+
+/******** DIV QUI ENGLOBE LISTE ********/
+.prenium {
+  height: 80%;
+  display: flex;
+  align-items: center; }
+
+/********LISTE UL **********/
+.liste-pre {
+  display: flex;
+  justify-content: center; }
+
+/***** li ********/
+ul li {
+  padding: 0 4%; }
+
+/*********** END navbar ***********/
+/*********** BEGIN pageUne ********/
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: white; }
+  a:link {
+    text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+h2 {
+  color: #919496;
+  font-size: 12px;
+  letter-spacing: .08em;
+  margin: 50px 0 22px;
+  text-transform: uppercase; }
+
+/******** IMG BACKGROUND GENERAL ********/
+.hero {
+  background: url(/images/hero-burst.svg) no-repeat;
+  background: #efcd69;
+  width: 150vh;
+  height: 200vh;
+  position: absolute;
+  background-position: top -410px center;
+  left: 50%;
+  z-index: 1; }
+
+/************ body CLASS  ***********/
+.container {
+  background: #efcd69;
+  z-index: -1; }
+
+main {
+  height: 154vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center; }
+
+.wrap-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+/*********** END pageUne ***********/
+/*********** BEGIN footer ********/
+footer {
+  height: 94vh;
+  background: black;
+  z-index: 1; }
+
+.wrap-logo-text-footer {
+  height: 90%;
+  display: flex;
+  align-items: center; }
+
+.logo-footer {
+  height: 50%;
+  display: flex;
+  align-items: center; }
+
+.logo-spot-footer {
+  height: 50%; }
+
+.text-logo-footer {
+  color: white; }
+
+/*********** LISTE ************/
+.wrap-footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer-une {
+  color: white; }
+
+.footer-deux {
+  color: white; }
+
+.footer-trois {
+  color: white; }
+
+.footer-reseau {
+  color: white;
+  padding: 0 50px; }
+
+footer ul li {
+  font-size: 16px;
+  font-weight: 400;
+  padding: .1875em 0;
+  margin-bottom: .75em;
+  display: inline-block; }
+
+.une {
+  display: flex;
+  flex-direction: column; }
+
+.deux {
+  display: flex;
+  flex-direction: column; }
+
+.trois {
+  display: flex;
+  flex-direction: column; }
+
+.quatre {
+  display: flex;
+  padding: 0 8%; }
+
+/*********** END footer ***********/
+
+/*# sourceMappingURL=style.css.map */

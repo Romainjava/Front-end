@@ -1,0 +1,34 @@
+header {
+    position: relative;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    border-left: 47vw solid transparent;
+    border-bottom: 173px solid white;
+    border-right: 80px solid transparent;
+    left: 10%;
+    bottom: 0;
+}
+
+header h1 {
+    color: white;
+}
+
+
+@media(max-width: 600px) {
+    header::after {
+        content: "";
+        position: absolute;
+        border-left: 47vw solid transparent;
+        border-bottom: 93px solid white;
+        border-right: 80px solid transparent;
+        left: 15%;
+        bottom: 0;
+       
+    }
+}

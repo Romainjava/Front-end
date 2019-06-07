@@ -1,0 +1,294 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   background-image: url(../images/bg-tile.gif);
+}
+
+.container {
+width: 925px;
+margin: 0 auto;
+padding: 30px;
+
+}
+
+
+/* Typography */
+
+h1, h2 {
+   font-family: 'Love Ya Like A Sister';
+   font-size: 40px;
+   font-weight: normal;
+
+   
+
+}
+
+h1 {
+   text-align: center;
+   background: url(../images/header-divider.png) center bottom;
+   background-repeat: no-repeat;
+   padding-bottom: 15px;
+   font-family: 'Love Ya Like A Sister', cursive;
+   color: #d17f38;
+   font-size: 40px;
+   font-weight: normal;
+
+}
+
+h1 em {
+   color: #4b2707;
+   font-style: normal;
+   line-height: 40px;
+
+}
+
+h2 {
+   color: #d17f38;
+
+}
+
+h3 {
+   height: 5px;
+   width: 200%;
+}
+
+p.lead {
+   text-align: center;
+   color: #4b2707;
+   line-height: 40px;
+
+}
+
+p {
+   color: #4b2707;
+
+}
+
+a:link, a:visited {
+   color: #d17f38;
+
+}
+
+a:hover {
+   color: #4b2707;
+
+}
+
+hr {
+border: 0;
+background: url(../images/divider.png) center;
+background: no-repeat;
+margin: 0 auto;
+padding-bottom: 37px;
+}
+
+/* Header */
+
+header nav {
+   display: block;
+   text-align: center;
+   
+
+
+}
+
+header nav ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+display: inline-block;
+line-height: 150px;
+}
+
+header nav ul li {
+   display: inline-block;
+   padding: 20px;
+
+   
+
+}
+
+header nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+
+}
+
+header nav ul li a:hover {
+   background: url(../images/tiny-donut.png) top center;
+   background-repeat: no-repeat;
+   padding-top: 23px;
+
+}
+
+header nav ul li#logo a {
+   background: url(../images/logo.png) center center;
+   display: block;
+   width: 300px;
+   height: 150px;
+   background-repeat: no-repeat;
+   text-indent: -5000px;
+
+   
+
+}
+
+header nav ul li#logo a:hover {
+   background: url(../images/logo-hover.png) center center;
+   background-repeat: no-repeat;
+   padding: 0px;
+
+
+
+}
+
+
+/* Hero */
+
+#hero {
+background: url(../images/bg-tile-yellow.gif);
+background-repeat: repeat;
+ 
+
+
+}
+
+#hero .container {
+   position: relative;
+
+  
+
+    
+     
+     
+}
+
+#hero .large-ribbon {
+background: url(../images/fresh-whole-ingredients.png) top left;
+background-repeat: no-repeat;
+top: -38px;
+right: -22px;
+width: 150px;
+height: 200px;
+text-indent: -5000px;
+position: absolute;
+
+ 
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+   float: left;
+   width: 52%;
+
+}
+
+#best-donut {
+   background: url(../images/award.png);
+   background-repeat: no-repeat;
+   float: right;
+   width: 25%;
+   padding-left: 15%;
+   padding-bottom: 5%;
+   margin-top: 2px;
+   font-size: 15px;
+
+
+
+/* News & Events */
+
+#articles {
+   
+}
+
+#feature-image {
+
+}
+
+#news-events article {
+
+}
+
+#news-events article.news {
+
+   
+}
+
+#news-events article.event {
+   
+}
+
+#news-events header time {
+   
+
+}
+
+#news-events section.excerpt {
+   
+
+}
+
+#news-events footer {
+   
+
+}
+
+
+/* Footer */
+
+footer.main {
+ 
+
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+   
+     
+
+}
+
+#uncopyright {
+ 
+    
+
+}
+
+#credits {
+  
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+

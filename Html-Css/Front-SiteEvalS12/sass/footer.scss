@@ -1,0 +1,83 @@
+/*********** BEGIN footer ********/
+footer {
+    height: 94vh;
+    background: black;
+    z-index: 1;
+}
+
+.wrap-logo-text-footer {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-spot-footer {
+    height: 50%;
+}
+
+.text-logo-footer {
+    color: white;
+}
+
+/*********** LISTE ************/
+.wrap-footer {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-une {
+    color: white
+}
+
+.footer-deux {
+    color: white
+}
+
+.footer-trois {
+    color: white;
+
+}
+
+.footer-reseau {
+    color: white;
+    padding: 0 50px;
+
+}
+
+footer ul li {
+    font-size: 16px;
+    font-weight: 400;
+    padding: .1875em 0;
+    margin-bottom: .75em;
+    display: inline-block;
+}
+
+.une {
+    display: flex;
+    flex-direction: column;
+}
+
+.deux {
+    display: flex;
+    flex-direction: column;
+}
+
+.trois {
+    display: flex;
+    flex-direction: column;
+}
+
+.quatre {
+    display: flex;
+    padding: 0 8%;
+}
+
+/*********** END footer ***********/

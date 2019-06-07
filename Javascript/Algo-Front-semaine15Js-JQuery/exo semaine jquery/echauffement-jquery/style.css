@@ -1,0 +1,17 @@
+#cadre {
+    width: 400px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rouge {background: red;}
+.vert {background: green;}
+.bleu {background: blue;}
+.jaune {background: yellow;}
+
+
